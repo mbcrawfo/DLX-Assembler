@@ -1,0 +1,4 @@
+	movd f2, f4
+        movf f3, f4
+        movfp2i r3, f4
+        movi2fp f4, r3

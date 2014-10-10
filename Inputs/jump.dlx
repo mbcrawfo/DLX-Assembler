@@ -1,0 +1,6 @@
+label1: j label3
+label2: jal label2
+label3: j label1
+label4: j label4
+label5: jal label6
+label6: jal label1

@@ -1,0 +1,12 @@
+label1:	seqi r20, r12, 65535
+        seqi r23, r0, label6
+label2:	snei r20, r12, 3
+        snei r23, r0, label5
+label3:	slti r24, r15, 30
+        slti r26, r0, label4
+label4:	sgti r24, r15, 1024
+        sgti r26, r0, label3
+label5:	slei r24, r15, 2047
+        slei r26, r0, label2
+label6:	sgei r24, r15, 2047
+        sgei r26, r0, label1

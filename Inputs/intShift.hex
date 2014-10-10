@@ -1,0 +1,3 @@
+00000000: 00430804	#label1:	sll r1, r2, r3    ; shift left logical
+00000004: 00861006	#	srl r2, r4, r6    ; shift right logical
+00000008: 01098807	#label2:	sra r17, r8, r9   ; shift right arithmetic

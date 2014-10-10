@@ -1,0 +1,3 @@
+00000000: 10200004	#label1: beqz r1, label3
+00000004: 1460fffc	#label2: bnez r3, label2
+00000008: 1480fff4	#label3: bnez r4, label1

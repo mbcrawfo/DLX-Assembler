@@ -1,0 +1,9 @@
+ ; encode set instructions
+ ; 	
+	slt r1, r2, r3     ; set less than  
+	sgt r2, r4, r6     ; set greater than
+	sle r7, r8, r9     ; set less than or equal to
+	sge r10, r12, r14  ; set greater than or equal to
+	seq r15, r16, r17  ; set equal to
+	sne r18, r20, r22  ; set not equal to
+

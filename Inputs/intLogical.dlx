@@ -1,0 +1,4 @@
+label2:	and r7, r8, r19   ; bitwise and
+	or r7, r8, r9     ; bitwise or
+	xor r5, r8, r29   ; bitwise xor
+

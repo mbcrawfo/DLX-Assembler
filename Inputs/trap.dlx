@@ -1,0 +1,6 @@
+	
+	trap 1
+	trap 2
+	trap 5
+	trap 127
+

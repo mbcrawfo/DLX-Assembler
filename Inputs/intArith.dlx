@@ -1,0 +1,11 @@
+	add r1, r2, r3    ; test the adds
+	addu r2, r4, r6
+; test the subtracts
+	sub r7, r8, r9
+	subu r10, r12, r14
+	mult f15, f16, f17 ; test the multiplies
+	multu f18, f20, f22
+; test the divides
+	div  f23, f24, f25
+	divu f26, f28, f30
+

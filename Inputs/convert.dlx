@@ -1,0 +1,6 @@
+	cvtf2d f2, f5
+        cvtd2f f3, f4
+        cvtd2i f3, f4
+        cvti2d f4, f3
+        cvti2f f6, f7
+        cvtf2i f8, f9

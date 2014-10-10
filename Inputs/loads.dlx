@@ -1,0 +1,19 @@
+;  the labels are attached to the instructions because the
+;  tests of the directives are in other files
+label1:	ld f2, 8(r3)      
+	ld f2, label1     
+label2:	lf f3, 16(r2)    
+	lf f3, label2     
+
+label3: lb r10, 40(r2)
+        lb r10, label3
+        lbu r10, 40(r2)
+        lbu r10, label3
+	
+label4: lw r10, 40(r2)
+        lw r10, label4
+
+label5: lh r10, 40(r2)
+        lh r10, label5
+        lhu r10, 40(r2)
+        lhu r10, label5

@@ -1,0 +1,6 @@
+label1:	andi r10, r12, 65535
+        andi r13, r0, label3
+label2:	ori r10, r12, 3
+        ori r13, r0, label2
+label3:	xori r14, r15, 30
+        xori r16, r0, label1

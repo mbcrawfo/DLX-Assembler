@@ -1,0 +1,7 @@
+	.asciiz "hello there"
+	.align 2
+	.word 32, 127, 1023, -1
+	.align 3
+	.double	-3333.367
+	.space 16
+	.asciiz "ends here"

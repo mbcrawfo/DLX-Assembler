@@ -1,0 +1,11 @@
+	.asciiz "hello"
+	.asciiz "greetings", "earthling"
+	.asciiz "I", "am", "spartacus"
+        .asciiz "Hello. ", "My name is Ingigo Montoya. "
+        .asciiz "You killed my father.", "Prepare to die."
+        .asciiz "a"
+        .asciiz "bb"
+        .asciiz "ccc"
+        .asciiz "dddd"
+        .asciiz "eeeee"
+

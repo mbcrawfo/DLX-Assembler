@@ -1,0 +1,8 @@
+00000200: 20410003	#label1:	addi r1, r2, 3
+00000204: 20030200	#        addi r3, r0, label1
+00000208: 24410003	#	addui r1, r2, 3
+0000020c: 24030200	#        addui r3, r0, label1
+00000210: 28a4001e	#label2:	subi r4, r5, 30
+00000214: 28060210	#        subi r6, r0, label2
+00000218: 2ca4001e	#	subui r4, r5, 30
+0000021c: 2c060210	#        subui r6, r0, label2

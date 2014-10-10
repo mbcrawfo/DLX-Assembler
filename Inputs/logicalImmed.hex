@@ -1,0 +1,6 @@
+00000000: 318affff	#label1:	andi r10, r12, 65535
+00000004: 300d0010	#        andi r13, r0, label3
+00000008: 358a0003	#label2:	ori r10, r12, 3
+0000000c: 340d0008	#        ori r13, r0, label2
+00000010: 39ee001e	#label3:	xori r14, r15, 30
+00000014: 38100000	#        xori r16, r0, label1

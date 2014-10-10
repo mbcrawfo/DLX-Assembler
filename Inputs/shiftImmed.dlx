@@ -1,0 +1,6 @@
+label1:	slli r10, r12, 65535
+        slli r13, r0, label1
+label2:	srli r10, r12, 3
+        srli r13, r0, label2
+label3:	srai r14, r15, 30
+        srai r16, r0, label3

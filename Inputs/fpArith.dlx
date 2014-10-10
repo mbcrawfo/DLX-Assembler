@@ -1,0 +1,11 @@
+	addf f1, f2, f3    ; test the adds
+	addd f2, f4, f6
+; test the subtracts
+	subf f7, f8, f9
+	subd f10, f12, f14
+	multf f15, f16, f17 ; test the multiplies
+	multd f18, f20, f22
+; test the divides
+	divf f23, f24, f25
+	divd f26, f28, f30
+

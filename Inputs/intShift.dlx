@@ -1,0 +1,4 @@
+label1:	sll r1, r2, r3    ; shift left logical
+	srl r2, r4, r6    ; shift right logical
+label2:	sra r17, r8, r9   ; shift right arithmetic
+

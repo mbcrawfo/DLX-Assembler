@@ -1,0 +1,6 @@
+00000000: 08000004	#label1: j label3
+00000004: 0ffffffc	#label2: jal label2
+00000008: 0bfffff4	#label3: j label1
+0000000c: 0bfffffc	#label4: j label4
+00000010: 0c000000	#label5: jal label6
+00000014: 0fffffe8	#label6: jal label1

@@ -1,0 +1,10 @@
+00000000: bc6afff8	#label1:	sd -8(r3), f10      
+00000004: bc0a0000	#	sd label1, f10     
+00000008: b8430010	#label2:	sf 16(r2), f3    
+0000000c: b8030008	#	sf label2, f3     
+00000010: a049ffd8	#label3: sb -40(r2), r9
+00000014: a00a0010	#        sb label3, r10
+00000018: ac4f0028	#label4: sw 40(r2), r15
+0000001c: ac0f0018	#        sw label4, r15
+00000020: a6fb0028	#label5: sh 40(r23), r27
+00000024: a41b0020	#        sh label5, r27

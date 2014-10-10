@@ -1,0 +1,3 @@
+00000000: 01133824	#label2:	and r7, r8, r19   ; bitwise and
+00000004: 01093825	#	or r7, r8, r9     ; bitwise or
+00000008: 011d2826	#	xor r5, r8, r29   ; bitwise xor

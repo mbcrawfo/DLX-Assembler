@@ -1,0 +1,13 @@
+; This isn't the correct way to use the align because it leaves
+; "holes" between instructions.  But it should work.
+        .align 1	
+	trap 1
+        .align 2	
+	trap 2
+        .align 3	
+	trap 5
+        .align 4	
+	trap 127
+        .align 4	
+        trap 3
+

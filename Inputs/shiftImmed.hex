@@ -1,0 +1,6 @@
+00000000: 518affff	#label1:	slli r10, r12, 65535
+00000004: 500d0000	#        slli r13, r0, label1
+00000008: 598a0003	#label2:	srli r10, r12, 3
+0000000c: 580d0008	#        srli r13, r0, label2
+00000010: 5dee001e	#label3:	srai r14, r15, 30
+00000014: 5c100010	#        srai r16, r0, label3

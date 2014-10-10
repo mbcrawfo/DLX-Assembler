@@ -1,0 +1,12 @@
+00000000: 6194ffff	#label1:	seqi r20, r12, 65535
+00000004: 60170028	#        seqi r23, r0, label6
+00000008: 65940003	#label2:	snei r20, r12, 3
+0000000c: 64170020	#        snei r23, r0, label5
+00000010: 69f8001e	#label3:	slti r24, r15, 30
+00000014: 681a0018	#        slti r26, r0, label4
+00000018: 6df80400	#label4:	sgti r24, r15, 1024
+0000001c: 6c1a0010	#        sgti r26, r0, label3
+00000020: 71f807ff	#label5:	slei r24, r15, 2047
+00000024: 701a0008	#        slei r26, r0, label2
+00000028: 75f807ff	#label6:	sgei r24, r15, 2047
+0000002c: 741a0000	#        sgei r26, r0, label1

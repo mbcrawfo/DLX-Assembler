@@ -1,0 +1,3 @@
+        jr r1        ; target is in r1,
+	jalr r3      ; target is in r3, save return in r31
+        jr r4

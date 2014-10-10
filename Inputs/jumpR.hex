@@ -1,0 +1,3 @@
+00000000: 48200000	#        jr r1        ; target is in r1,
+00000004: 4c600000	#	jalr r3      ; target is in r3, save return in r31
+00000008: 48800000	#        jr r4
